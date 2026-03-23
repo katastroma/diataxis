@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+package diataxis;
+
+option go_package = "github.com/katastroma/diataxis";
+
+// OrdererService orders manifests to be safe for application.
+service OrdererService {
+  rpc Order(stream OrderRequest) returns (OrderResponse);
+}
+
+message OrderRequest {
+  repeated bytes manifests = 1;
+}
+
+message OrderResponse {
+  repeated bytes manifests = 1;
+}
