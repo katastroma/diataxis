@@ -1,7 +1,7 @@
 # Diataxis
 
 Orderer interface for [katastroma](https://github.com/katastroma). Defines the
-service contract for ordering Kubernetes manifests into a safe apply sequence.
+client-facing API for orderer implementations.
 
 An orderer takes manifests and ensures they are in an order safe for sequential
 apply — namespaces before resources that live in them, CRDs before custom
