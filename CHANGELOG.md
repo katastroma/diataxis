@@ -2,6 +2,16 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.2.0 - 2026-03-24
+#### Features
+- back to having an Order rpc - (88a0e8a) - Nathan Blair
+#### Documentation
+- update docs - (0905e36) - Nathan Blair
+#### Refactoring
+- diataxis is a client-facing proto service - (84b709a) - Nathan Blair
+
+- - -
+
 ## 0.1.1 - 2026-03-23
 #### Bug Fixes
 - (**deps**) include proto build dependencies - (50a1913) - Nathan Blair
