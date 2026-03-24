@@ -4,5 +4,17 @@ package diataxis;
 
 option go_package = "github.com/katastroma/diataxis";
 
-// OrdererService is the client-facing API for orderer implementations.
-service OrdererService {}
+// OrdererService sorts Kubernetes manifests into a safe apply order.
+service OrdererService {
+  rpc Order(stream OrderRequest) returns (stream OrderResponse);
+}
+
+// Streamed unordered Kubernetes manifest.
+message OrderRequest {
+  bytes manifest = 1;
+}
+
+// Streamed ordered Kubernetes manifest.
+message OrderResponse {
+  bytes manifest = 1;
+}
