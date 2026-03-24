@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.0 - 2026-03-24
+#### Features
+- support buf for generating protos - (34ade3d) - Nathan Blair
+#### Miscellaneous Chores
+- go mod tidy - (37c4ef7) - Nathan Blair
+
+- - -
+
 ## 0.2.0 - 2026-03-24
 #### Features
 - back to having an Order rpc - (88a0e8a) - Nathan Blair
