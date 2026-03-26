@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.3 - 2026-03-26
+#### Bug Fixes
+- (**cd**) fix workflow name - (b20f3a1) - Nathan Blair
+
+- - -
+
 ## 0.3.2 - 2026-03-26
 #### Bug Fixes
 - (**cd**) ignore irrelevant generated files - (0c89624) - Nathan Blair
