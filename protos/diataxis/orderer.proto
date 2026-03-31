@@ -6,7 +6,7 @@ option go_package = "github.com/katastroma/diataxis";
 
 // OrdererService sorts Kubernetes manifests into a safe apply order.
 service OrdererService {
-  rpc Order(stream OrderRequest) returns (stream OrderResponse);
+  rpc Order(stream OrderRequest) returns (OrderResponse);
 }
 
 // Streamed unordered Kubernetes manifest.
