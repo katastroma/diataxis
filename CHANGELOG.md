@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.5 - 2026-03-31
+#### Bug Fixes
+- use client-side not bidi streaming - (8ba6097) - Nathan Blair
+
+- - -
+
 ## 0.3.4 - 2026-03-31
 #### Bug Fixes
 - diataxis doesn't need to send back anything in the OrderResponse - (525264e) - Nathan Blair
