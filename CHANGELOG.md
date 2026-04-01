@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.3.7 - 2026-04-01
+#### Bug Fixes
+- add metadata key - (df660ee) - Nathan Blair
+
+- - -
+
 ## 0.3.6 - 2026-04-01
 #### Bug Fixes
 - add orderer type enum - (3fd7720) - Nathan Blair
