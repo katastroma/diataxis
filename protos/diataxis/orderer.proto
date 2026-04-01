@@ -9,6 +9,13 @@ service OrdererService {
   rpc Order(stream OrderRequest) returns (OrderResponse);
 }
 
+// OrdererType identifies which ordering backend to use.
+enum OrdererType {
+  ORDERER_TYPE_UNSPECIFIED = 0;
+  ORDERER_TYPE_CLI_UTILS = 1;
+  ORDERER_TYPE_HELM = 2;
+}
+
 // Streamed unordered Kubernetes manifest.
 message OrderRequest {
   bytes manifest = 1;
