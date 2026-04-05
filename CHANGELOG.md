@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.4.0 - 2026-04-05
+#### Features
+- diataxis can express order in requests and return streams - (019772b) - Nathan Blair
+#### Miscellaneous Chores
+- revive note - (44f1260) - Nathan Blair
+
+- - -
+
 ## 0.3.7 - 2026-04-01
 #### Bug Fixes
 - add metadata key - (df660ee) - Nathan Blair
