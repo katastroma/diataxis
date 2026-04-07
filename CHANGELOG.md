@@ -2,6 +2,12 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## 0.4.1 - 2026-04-07
+#### Bug Fixes
+- enable both client and bidi streaming - (cf06ab4) - Nathan Blair
+
+- - -
+
 ## 0.4.0 - 2026-04-05
 #### Features
 - diataxis can express order in requests and return streams - (019772b) - Nathan Blair
