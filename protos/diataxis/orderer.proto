@@ -6,7 +6,8 @@ option go_package = "github.com/katastroma/diataxis";
 
 // OrdererService sorts Kubernetes manifests by dependency.
 service OrdererService {
-  rpc Order(stream OrderRequest) returns (stream OrderResponse);
+  rpc OrderStream(stream OrderStreamRequest) returns (stream OrderStreamResponse);
+  rpc Order(stream OrderRequest) returns (OrderResponse);
 }
 
 enum Direction {
@@ -23,11 +24,19 @@ enum OrdererType {
 }
 
 // Kubernetes manifest data.
+message OrderStreamRequest {
+  bytes data = 1;
+}
+
+// Streamed ordered Kubernetes manifest.
+message OrderStreamResponse {
+  bytes manifest = 1;
+}
+
+// Kubernetes manifest data.
 message OrderRequest {
   bytes data = 1;
 }
 
 // Streamed ordered Kubernetes manifest.
-message OrderResponse {
-  bytes manifest = 1;
-}
+message OrderResponse {}
